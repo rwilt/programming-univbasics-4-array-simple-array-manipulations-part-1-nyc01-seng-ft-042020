@@ -21,6 +21,10 @@ array.shift
 end
 
 
+def shift_with_args(array)
+array.shift(2)
+end
+
 describe "shift_with_args" do
   before(:each) do
     @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
