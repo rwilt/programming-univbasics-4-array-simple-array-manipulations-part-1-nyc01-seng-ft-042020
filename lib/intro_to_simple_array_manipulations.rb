@@ -17,8 +17,7 @@ array.pop(2)
 end
 
 def using_shift(array)
-
-
+array.shift
 end
 describe "using_shift" do
   before(:each) do
