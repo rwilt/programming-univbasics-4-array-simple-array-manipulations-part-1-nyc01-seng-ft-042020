@@ -16,6 +16,10 @@ array.pop(2)
 
 end
 
+def using_shift(array)
+
+
+end
 describe "using_shift" do
   before(:each) do
     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
